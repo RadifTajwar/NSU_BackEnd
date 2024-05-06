@@ -1,0 +1,49 @@
+
+/* section 2 start  */
+/* text start  */
+.text_1 {
+  color: #92dd8f;
+  text-align: center;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #92dd8f;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: 1.6px;
+}
+
+.text_2 {
+  color: #000;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 4.8px;
+  margin: 5px 0px;
+}
+
+.text_3 {
+  color: #000;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+}
+/* text end  */
+
+
+/* counter start  */
+.counter_1{
+    width: 163px;
+height: 99px;
+border-radius: 35px;
+background: #E5F8E5;
+
+}
+/* counter end   */
+
+
+/* section 2 end  */

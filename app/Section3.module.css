@@ -1,0 +1,85 @@
+.text_1 {
+  color: #000;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.text_2 {
+  color: #000;
+  text-align: center;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 72px */
+}
+
+.text_3 {
+  color: #686868;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 30px */
+  margin: 15px 55px;
+}
+
+/* section 3 div start  */
+.offer_div {
+  transition: 0.4s ease-in-out; /* Transition top property over 1 second */
+  width: 348px;
+  height: 400px;
+  flex-shrink: 0;
+}
+.offer_div:hover .div_hover_img {
+  transition: top 0.4s ease-in-out; /* Transition top property over 1 second */
+  top: 0px !important;
+}
+
+.offer_div:hover .bg_1{
+    transition:  0.4s ease-in-out; 
+    transform: rotate(35deg);
+}
+.offer_div:hover .bg_2{
+    transition:  0.4s ease-in-out; 
+    transform: rotate(35deg);
+}
+.offer_div:hover .bg_3{
+    transition:  0.4s ease-in-out; 
+    transform: rotate(35deg);
+}
+.offer_div:hover {
+  transition: 0.4s ease-in-out; /* Transition top property over 1 second */
+  background: rgba(255, 255, 255, 0.5) !important;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.Div_text_1 {
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 36px */
+}
+
+.Div_text_2 {
+  color: #686868;
+  text-align: center;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 24px */
+}
+
+
+/* section 3 div end  */
+.Div_btn_txt{
+  transition: all 300ms ease-in-out !important;
+}
+.Div_btn_txt:hover{
+  letter-spacing: 1.92px !important;
+  transition: all 300ms ease-in-out !important;
+}

@@ -1,0 +1,39 @@
+/* Header Link start  */
+.Header_links {
+  color: #686868;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 100%;
+}
+/* Header Link end  */
+
+
+/* Header Button start  */
+.LogIn_button{
+  background: linear-gradient(to right, #16C174, #2CC117) !important;
+  border-radius: 30px;
+  color: #FFF;
+  font-size: 12px;
+  font-style: normal;
+  line-height: 150%;
+  display: flex;
+  width: 75px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  transition: background 0.3s ease-in-out;
+}
+
+.LogIn_button:hover {
+    background: linear-gradient(to right, #16C174, #92DD8F) !important;
+  }
+/* Header Button end  */
+
+.main{
+  background-color: #F1F1F1;
+}
+
+.home:hover .txt{
+  color: rgb(0, 179, 68) !important;
+}

@@ -1,0 +1,11 @@
+.div_1 {
+  width: 371px;
+  height: 232px;
+  border-radius: 25px;
+  background: #E5F8E5;
+  transition: transform 0.4s ease-in-out;
+}
+
+.div_1:hover{
+    transform: translateY(-20px);
+}

@@ -1,0 +1,46 @@
+.Div_1 {
+    transition: all 500ms ease-in-out !important;
+}
+.hover_div{
+    background: rgba(104, 32, 228, 0.50);
+    transition: all 500ms ease-in-out !important;
+}
+.clips_bg{
+    
+    transition: all 500ms ease-in-out !important;
+}
+.clips{
+    transition: all 500ms ease-in-out !important;
+}
+.Div_1:hover .hover_div{
+    
+    transition: all 500ms ease-in-out !important;
+    width: 336px !important;
+}
+.Div_1:hover .clips_bg{
+        width: 30px !important;
+        height: 30px !important;
+        transition: all 500ms ease-in-out !important;
+}
+.Div_1:hover .clips{
+    transition: all 500ms ease-in-out !important;
+    width: 12px;
+    
+}
+.Div_1:hover{
+    transform: translateY(-10px);
+}
+.text{
+    transition: all 300ms ease-in-out !important;
+}
+.text:hover{
+    color: #6251D5 !important;
+    transition: all 300ms ease-in-out !important;
+}
+.read_more{
+    transition: all 300ms ease-in-out !important;
+}
+.read_more:hover{
+    letter-spacing: 1.92px !important;
+    transition: all 300ms ease-in-out !important;
+}

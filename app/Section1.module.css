@@ -1,0 +1,97 @@
+/* section 1 left intro text start  */
+
+.section1_left_intro_text {
+  color: #92dd8f;
+  -webkit-text-stroke-width: 0.5;
+  -webkit-text-stroke-color: #92dd8f;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: 4.9px;
+}
+/* section 1 left intro text end  */
+
+/* section 1 left bold text start  */
+
+.section1_left_bold_text {
+  color: #000;
+  -webkit-text-stroke-width: 0.5;
+  -webkit-text-stroke-color: #000;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%;
+  letter-spacing: 3.6px;
+  width: 550px;
+  word-spacing: 15px;
+  margin-bottom: 75px;
+}
+
+/* section 1 left bold text end  */
+
+/* section 1 left text 3 start  */
+.section1_left_text_3 {
+  color: #686868;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+/* section 1 left text 3 end  */
+
+/* section 1 left search bar start  */
+.search_icon_line {
+  margin: 0px 25px;
+}
+.section1_left_search_bar {
+  width: 455px;
+  height: 52px;
+  padding: 10px; /* Adjust padding as needed */
+  padding-right: 5px;
+  border-radius: 25px;
+  border: none;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  outline: none;
+}
+
+.search_input {
+  width: 280px;
+  font-size: 12px;
+}
+.search_input::placeholder {
+  color: #686868;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+.search_button {
+  background: linear-gradient(to right, #16c174, #2cc117);
+  border-radius: 30px;
+  color: #fff;
+  font-size: 12px;
+  font-style: normal;
+  line-height: 150%;
+  padding: 14px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  transition: background 0.5s ease-in-out;
+}
+.search_button:hover {
+  background: linear-gradient(to bottom, #92dd8f, #e5f8e5);
+}
+
+/* section 1 left search bar end  */
+
+/* section 1 left text 4 start  */
+.thumb_icon{
+    background-color: white;
+    width: 42px;
+    height: 42px;
+    border-radius: 21px;
+}
+/* section 1 left text 4 end  */

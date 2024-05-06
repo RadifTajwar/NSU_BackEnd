@@ -1,0 +1,33 @@
+.signup_page {
+    background: linear-gradient(90deg, #F5FCF4 0%, #E5F8E5 100%) !important;
+    height: 685px;
+  }
+  
+.form {
+    width: 450.212px;
+    height: 650px;
+    border-radius: 30px;
+    background: linear-gradient(
+      90deg,
+      #18da59 0%,
+      #c1ecc0 99.95%,
+      #e6f8e6 99.96%
+    );
+    backdrop-filter: blur(12.5px);
+    padding: 0px 5px;
+  }
+  
+  .password::placeholder {
+    color: "#C8C8C8";
+  }
+  
+  .sign_in_btn {
+    cursor: pointer;
+    background: linear-gradient(to left, #18da59, #76e491, #beebbc);
+    transition: all 500ms ease-in-out !important;
+  }
+  .sign_in_btn:hover {
+    transition: all 500ms ease-in-out !important;
+    background: linear-gradient(to left, #76e491, #beebbc, #18da59);
+  }
+  
